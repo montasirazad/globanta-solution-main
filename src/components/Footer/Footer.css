@@ -1,0 +1,29 @@
+.footer-main {
+  color: white;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  gap: 10px;
+  /* border: 1px solid red; */
+  
+}
+.footer-about-us {
+  /* border: 1px solid green; */
+  text-align: justify;
+}
+.footer-details {
+  text-align: center;
+  /* border: 1px solid green; */
+}
+
+.footer-details ul li {
+  list-style: none;
+}
+
+.footer-social {
+  /* border: 1px solid green; */
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}

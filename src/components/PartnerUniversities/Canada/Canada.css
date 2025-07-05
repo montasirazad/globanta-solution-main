@@ -1,0 +1,27 @@
+.university-main {
+  color: white;
+  background-color: rgb(233, 10, 10);
+  margin-top: 80px;
+  border: 2px solid red;
+  z-index: 15;
+}
+.country-img {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  background-color: white;
+}
+.country-img img {
+  width: 150px;
+  filter: grayscale(60%);
+}
+
+.country-img img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transition: 0.5s;
+  scale: 1.2;
+}

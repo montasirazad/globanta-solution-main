@@ -1,0 +1,12 @@
+.banner-main {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.banner-main img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px lightyellow;
+}
